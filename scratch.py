@@ -16,9 +16,6 @@ if not os.path.exists(SCRATCH_PATH):
 if not os.path.exists(TODAYS_PATH):
     os.makedirs(TODAYS_PATH)
 
-print(sys.argv)
-print(len(sys.argv))
-
 if (len(sys.argv) > 1):
   NEW_FILE="{}/{}.{}".format(TODAYS_PATH, CURRENT_TIME, sys.argv[1])  
   os.system("{} {}".format(EDITOR_PATH, NEW_FILE))
