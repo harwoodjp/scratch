@@ -10,11 +10,11 @@ The basic commands are:
 
 `scratch [js, py, html, ...]`
 
-Creates and opens a file in your scratch path with the inputted extension. Saves to the filesystem as `/scratch/path/[todays-date]/[timestamp].[js, py, html, ...]`.
+> Creates and opens a file in your scratch path with the inputted extension. Saves to the filesystem as `/scratch/path/[todays-date]/[timestamp].[js, py, html, ...]`.
 
 `scratch`
 
-Open today's scratch directory in your specified editor.
+> Open today's scratch directory in your specified editor.
 
 ## Why?
 
