@@ -17,7 +17,8 @@ if not os.path.exists(TODAYS_PATH):
     os.makedirs(TODAYS_PATH)
 
 if (len(sys.argv) > 1):
-  NEW_FILE="{}/{}.{}".format(TODAYS_PATH, CURRENT_TIME, sys.argv[1])  
+  NEW_FILE="{}/{}.{}".format(TODAYS_PATH, CURRENT_TIME, sys.argv[1])
+  print(NEW_FILE)
   os.system("{} {}".format(EDITOR_PATH, NEW_FILE))
 else: 
   os.system("{} {}".format(EDITOR_PATH, TODAYS_PATH))
